@@ -1,0 +1,30 @@
+diff --git a/node_modules/react-native/src/private/webapis/dom/events/Event.js b/node_modules/react-native/src/private/webapis/dom/events/Event.js
+index f918f97..aa3b906 100644
+--- a/node_modules/react-native/src/private/webapis/dom/events/Event.js
++++ b/node_modules/react-native/src/private/webapis/dom/events/Event.js
+@@ -45,15 +45,16 @@ export interface EventInit {
+ }
+ 
+ export default class Event {
+-  static +NONE: 0;
+-  static +CAPTURING_PHASE: 1;
+-  static +AT_TARGET: 2;
+-  static +BUBBLING_PHASE: 3;
+-
+-  +NONE: 0;
+-  +CAPTURING_PHASE: 1;
+-  +AT_TARGET: 2;
+-  +BUBBLING_PHASE: 3;
++  // Patched for WatermelonDB / Babel loose class properties compatibility
++  // static +NONE: 0;
++  // static +CAPTURING_PHASE: 1;
++  // static +AT_TARGET: 2;
++  // static +BUBBLING_PHASE: 3;
++
++  // +NONE: 0;
++  // +CAPTURING_PHASE: 1;
++  // +AT_TARGET: 2;
++  // +BUBBLING_PHASE: 3;
+ 
+   _bubbles: boolean;
+   _cancelable: boolean;
