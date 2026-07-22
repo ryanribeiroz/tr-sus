@@ -70,17 +70,17 @@ O **TerritorializaSUS** é uma **solução tecnológica completa** para apoiar e
 <p align="center">
   <img src="docs/images/screens_login_home.png" alt="Login e Tela Inicial" width="700" />
 </p>
-<p align="center"><em>Login com CPF e Tela Inicial com estatísticas do território</em></p>
+<p align="center"><em>Imagem ilustrativa: Tela de login com CPF e tela inicial com estatísticas do território</em></p>
 
 <p align="center">
   <img src="docs/images/screens_workpanel_street.png" alt="Painel de Trabalho e Ações na Rua" width="700" />
 </p>
-<p align="center"><em>Painel de trabalho offline e ações disponíveis na rua selecionada</em></p>
+<p align="center"><em>Imagem ilustrativa: Tela de painel de trabalho offline e ações disponíveis na rua selecionada</em></p>
 
 <p align="center">
   <img src="docs/images/screens_form_sync.png" alt="Formulário e Sincronização" width="700" />
 </p>
-<p align="center"><em>Cadastro de domicílio com Escala Coelho-Savassi e tela de sincronização</em></p>
+<p align="center"><em>Imagem ilustrativa: Formulário de cadastro de domicílio com Escala Coelho-Savassi e tela de sincronização</em></p>
 
 ---
 
